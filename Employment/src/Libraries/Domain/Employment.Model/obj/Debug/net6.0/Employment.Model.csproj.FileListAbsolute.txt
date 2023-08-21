@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\bin\Debug\net6.0\Employment.Model.deps.json
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\bin\Debug\net6.0\Employment.Model.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\bin\Debug\net6.0\Employment.Model.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\bin\Debug\net6.0\Employment.Shared.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\bin\Debug\net6.0\Employment.Shared.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\obj\Debug\net6.0\Employment.Model.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\obj\Debug\net6.0\Employment.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\obj\Debug\net6.0\Employment.Model.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\obj\Debug\net6.0\Employment.Model.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\obj\Debug\net6.0\Employment.Model.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\obj\Debug\net6.0\Employment.Model.csproj.CopyComplete
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\obj\Debug\net6.0\Employment.Model.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\obj\Debug\net6.0\refint\Employment.Model.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\obj\Debug\net6.0\Employment.Model.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Model\obj\Debug\net6.0\ref\Employment.Model.dll

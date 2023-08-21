@@ -1,0 +1,12 @@
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\bin\Debug\net6.0\Employment.Services.Model.deps.json
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\bin\Debug\net6.0\Employment.Services.Model.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\bin\Debug\net6.0\Employment.Services.Model.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\Employment.Services.Model.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\Employment.Services.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\Employment.Services.Model.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\Employment.Services.Model.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\Employment.Services.Model.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\Employment.Services.Model.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\refint\Employment.Services.Model.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\Employment.Services.Model.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\ref\Employment.Services.Model.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Employment.Model/1.0.0": {
+        "dependencies": {
+          "Employment.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Employment.Model.dll": {}
+        }
+      },
+      "Employment.Shared/1.0.0": {
+        "runtime": {
+          "Employment.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Employment.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Employment.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

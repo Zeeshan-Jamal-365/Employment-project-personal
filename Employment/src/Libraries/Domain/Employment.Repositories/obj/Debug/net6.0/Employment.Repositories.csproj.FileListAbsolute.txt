@@ -1,0 +1,12 @@
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.deps.json
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\refint\Employment.Repositories.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\ref\Employment.Repositories.dll
