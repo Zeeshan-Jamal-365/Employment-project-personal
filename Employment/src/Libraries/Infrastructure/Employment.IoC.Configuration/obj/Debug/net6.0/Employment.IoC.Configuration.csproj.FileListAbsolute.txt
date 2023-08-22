@@ -19,3 +19,5 @@ C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastru
 C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.IoC.Configuration\obj\Debug\net6.0\refint\Employment.IoC.Configuration.dll
 C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.IoC.Configuration\obj\Debug\net6.0\Employment.IoC.Configuration.pdb
 C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.IoC.Configuration\obj\Debug\net6.0\ref\Employment.IoC.Configuration.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.IoC.Configuration\bin\Debug\net6.0\Employment.Services.Model.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.IoC.Configuration\bin\Debug\net6.0\Employment.Services.Model.pdb

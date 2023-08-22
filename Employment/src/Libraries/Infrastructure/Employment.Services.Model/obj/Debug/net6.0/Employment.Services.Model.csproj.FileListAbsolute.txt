@@ -10,3 +10,6 @@ C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastru
 C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\refint\Employment.Services.Model.dll
 C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\Employment.Services.Model.pdb
 C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\ref\Employment.Services.Model.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\bin\Debug\net6.0\Employment.Shared.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\bin\Debug\net6.0\Employment.Shared.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Infrastructure\Employment.Services.Model\obj\Debug\net6.0\Employment.Services.Model.csproj.CopyComplete
