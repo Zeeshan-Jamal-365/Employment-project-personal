@@ -1,0 +1,40 @@
+﻿@model Employment.Frontend.Models.State
+
+@{
+    ViewData["Title"] = "AddorEdit";
+}
+
+<h1>Add or Edit</h1>
+
+<h4>State</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddorEdit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @Html.HiddenFor(model=>model.id)
+            <div class="form-group mb-3">
+                <label class="control-label">Country Name</label>
+                <select asp-for="countryId" asp-items="@(ViewBag.countryId)" class="form-select">
+                    <option selected>--Select Country Name--</option>
+                </select>
+                <span asp-validation-for="countryId" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group mb-3">
+                <label class="control-label">State Name</label>
+                <input asp-for="stateName" class="form-control" />
+                <span asp-validation-for="stateName" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

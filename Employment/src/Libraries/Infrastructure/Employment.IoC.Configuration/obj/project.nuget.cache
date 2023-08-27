@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "grSw751F/7y1kVY4NrzWAOCHTpeJoqmeT8FKmAnDcRWNZBqrPzqyZlSHAxkZ41gpVC7mflOWiW3bIaO+PNvPYA==",
+  "dgSpecHash": "wXIoohVNjvUSYw6mmKRTWS0aDc7QnDo4BXLVilHdeEzo2GGBNpOYKNcbK3FKCKGHaHbIdrvNNYHShasQIvtzNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\Employment-project\\Employment\\src\\Libraries\\Infrastructure\\Employment.IoC.Configuration\\Employment.IoC.Configuration.csproj",
+  "projectFilePath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.IoC.Configuration\\Employment.IoC.Configuration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

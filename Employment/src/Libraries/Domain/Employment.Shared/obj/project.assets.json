@@ -677,11 +677,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Employment-project\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj",
+      "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj",
       "projectName": "Employment.Shared",
-      "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj",
+      "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\obj\\",
+      "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

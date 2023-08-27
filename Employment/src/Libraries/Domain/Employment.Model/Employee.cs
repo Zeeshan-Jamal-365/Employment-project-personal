@@ -1,9 +1,4 @@
 ﻿using Employment.Shared.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Employment.Model;
 public class Employee : BaseEntity, IEntity
@@ -29,7 +24,7 @@ public class Employee : BaseEntity, IEntity
     public State? State { get; set; }
     public int CityId { get; set; }
     public City? City { get; set; }
-    
+
 
 
 

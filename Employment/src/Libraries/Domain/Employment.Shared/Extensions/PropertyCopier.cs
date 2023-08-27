@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Taskmanagement.Shared.Extensions;
+﻿namespace Taskmanagement.Shared.Extensions;
 public static class PropertyCopier
 {
     public static void Copy<TParent, TChild>(this TParent parent, TChild child)

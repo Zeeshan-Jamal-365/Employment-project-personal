@@ -8,11 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\Employment.Model\Employment.Model.csproj" />
+    <ProjectReference Include="..\..\Domain\Employment.Repositories\Employment.Repositories.csproj" />
     <ProjectReference Include="..\Employment.Services.Model\Employment.Services.Model.csproj" />
   </ItemGroup>
 

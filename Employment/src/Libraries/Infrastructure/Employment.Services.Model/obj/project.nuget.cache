@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jg9tvVmMdQOrs/dQuAwfe892UFWvm6g72JByn3sU/G/Zq3kMwu7MWw0p8QTI8gP4Gs7sWJcR31FqSNWgsVQ1Kw==",
+  "dgSpecHash": "DSwuOdVWbAS4ammTlndCjJeFW7qfXwMgQld0nk0NVsgWipWsanQXTuh3lTgqBsRw0lj8ojGhFr3q7P5WDx95iw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\Employment-project\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj",
+  "projectFilePath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

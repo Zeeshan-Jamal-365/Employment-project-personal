@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Employment.Infrastructure\Employment.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Employment.Services.Model\Employment.Services.Model.csproj" />
+    <ProjectReference Include="..\Employment.Model\Employment.Model.csproj" />
+    <ProjectReference Include="..\Employment.Shared\Employment.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

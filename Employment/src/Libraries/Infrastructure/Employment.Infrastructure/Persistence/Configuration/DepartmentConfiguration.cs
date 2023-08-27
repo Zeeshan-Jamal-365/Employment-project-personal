@@ -1,11 +1,6 @@
 ﻿using Employment.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Employment.Infrastructure.Persistence.Configuration;
 public class DepartmentConfiguration : IEntityTypeConfiguration<Department>
@@ -14,6 +9,6 @@ public class DepartmentConfiguration : IEntityTypeConfiguration<Department>
     {
         builder.ToTable("Departments");
         builder.HasKey(x => x.Id);
-        
+
     }
 }

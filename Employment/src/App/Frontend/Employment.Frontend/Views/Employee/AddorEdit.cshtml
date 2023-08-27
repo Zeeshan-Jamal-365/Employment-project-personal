@@ -1,0 +1,74 @@
+﻿@model Employment.Frontend.Models.Employee
+
+@{
+    ViewData["Title"] = "AddorEdit";
+}
+
+<h1>Add or Edit</h1>
+
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddorEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @Html.HiddenFor(model=>model.id)
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+
+                <label asp-for="departmentId" class="control-label"></label>
+                <input asp-for="departmentId" class="form-control" />
+
+
+                <label asp-for="address" class="control-label"></label>
+                <input asp-for="address" class="form-control" />
+
+                <label asp-for="gender" class="control-label"></label>
+                <input asp-for="gender" class="form-control" />
+
+                <label asp-for="joiningdate" class="control-label"></label>
+                <input asp-for="joiningdate" class="form-control" />
+
+                <label asp-for="ssc" class="control-label"></label>
+                <input asp-for="ssc" class="form-control" />
+
+                <label asp-for="hsc" class="control-label"></label>
+                <input asp-for="hsc" class="form-control" />
+
+                <label asp-for="bsc" class="control-label"></label>
+                <input asp-for="bsc" class="form-control" />
+
+                <label asp-for="msc" class="control-label"></label>
+                <input asp-for="msc" class="form-control" />
+
+
+                <label asp-for="picture" class="control-label"></label>
+                <input asp-for="picture" class="form-control" />
+
+
+                <label asp-for="countryId" class="control-label"></label>
+                <input asp-for="countryId" class="form-control" />
+
+
+                <label asp-for="stateId" class="control-label"></label>
+                <input asp-for="stateId" class="form-control" />
+
+                  <label asp-for="cityId" class="control-label"></label>
+                <input asp-for="cityId" class="form-control" />
+
+                
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

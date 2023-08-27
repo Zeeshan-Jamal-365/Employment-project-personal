@@ -10,3 +10,75 @@ C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Em
 C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\refint\Employment.Repositories.dll
 C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.pdb
 C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\ref\Employment.Repositories.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Infrastructure.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Model.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Services.Model.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Shared.dll
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Infrastructure.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Services.Model.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Model.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Shared.pdb
+C:\Users\ASUS\source\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.CopyComplete
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.deps.json
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Infrastructure.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Model.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Services.Model.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Shared.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Infrastructure.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Services.Model.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Model.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Shared.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.AssemblyReference.cache
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.AssemblyInfoInputs.cache
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.AssemblyInfo.cs
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.CoreCompileInputs.cache
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.CopyComplete
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\refint\Employment.Repositories.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\ref\Employment.Repositories.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.deps.json
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.pdb
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Infrastructure.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Model.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Services.Model.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Shared.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Infrastructure.pdb
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Services.Model.pdb
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Model.pdb
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Shared.pdb
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.AssemblyInfo.cs
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.CopyComplete
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\refint\Employment.Repositories.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.pdb
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\ref\Employment.Repositories.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.deps.json
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Repositories.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Infrastructure.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Model.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Services.Model.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Shared.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Infrastructure.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Services.Model.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Model.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\bin\Debug\net6.0\Employment.Shared.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.AssemblyReference.cache
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.AssemblyInfoInputs.cache
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.AssemblyInfo.cs
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.CoreCompileInputs.cache
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.csproj.CopyComplete
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\refint\Employment.Repositories.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\Employment.Repositories.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Repositories\obj\Debug\net6.0\ref\Employment.Repositories.dll

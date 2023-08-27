@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Employment.Shared.Common;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 using Taskmanagement.Shared.Extensions;
 
 namespace Employment.Shared.CommonRepository;
@@ -60,5 +61,11 @@ public class RepositoryBase<TEntity, IModel, T> : IRepository<TEntity, IModel, T
         var data = DbSet.AsEnumerable();
         var models = _mapper.Map<IEnumerable<IModel>>(data);
         return Task.FromResult(models);
+    }
+    public async Task<List<IModel>> GetList(params Expression<Func<TEntity, object>>[] includes)
+    {
+        var entities= await includes.Aggregate(
+            _dbContext.Set<TEntity>().AsQueryable(),(current, include)=>current.Include(include)).ToListAsync().ConfigureAwait(true);
+        return _mapper.Map<List<IModel>>(entities);
     }
 }

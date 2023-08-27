@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Employment.Frontend.Models.Employee>;
+@{
+    ViewData["Title"] = "Index";
+    int idno = 1;
+}
+<div class="container border mt-5 p-3">
+    <p class="text-center">
+        <a class="btn btn-primary" asp-action="AddorEdit"><i class="fa-solid fa-plus"></i> Create New</a>
+    </p>
+
+    <table class="table" id="employeeTable">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">address</th>
+                <th scope="col">gender</th>
+                
+                <th scope="col">joiningdate</th>
+              
+                <th scope="col">ssc</th>
+                <th scope="col">hsc</th>
+                <th scope="col">bsc</th>
+                <th scope="col">msc</th>
+               
+                <th scope="col">picture</th>
+                <th scope="col">countryId</th>
+                <th scope="col">stateId</th>
+                <th scope="col">cityId</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @idno
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.address)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.gender)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.joiningdate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.ssc)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.hsc)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.bsc)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem=>item.msc)
+                        </td>
+                        <td class"text-end">
+                            <a class="btn btn-success">Edit</a>
+                            <a class="delete-button btn btn-danger" href="Employee/Delete/@item.id" onclick="return confirm('Are you sure you want to delete this item?');"><i class="fa-solid fa-trash"></i> Delete</a>
+                        </td>
+
+                    </tr>
+                    idno++;
+                }
+            }
+        </tbody>
+    </table>
+</div>
+

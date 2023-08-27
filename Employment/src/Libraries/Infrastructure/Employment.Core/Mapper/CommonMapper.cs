@@ -2,7 +2,7 @@
 using Employment.Services.Model;
 
 namespace Employment.Core.Mapper;
-public class CommonMapper:Profile
+public class CommonMapper : Profile
 {
     public CommonMapper()
     {
@@ -12,5 +12,5 @@ public class CommonMapper:Profile
         CreateMap<VmCountry, Model.Country>().ReverseMap();
         CreateMap<VmState, Model.State>().ReverseMap();
     }
-    
+
 }

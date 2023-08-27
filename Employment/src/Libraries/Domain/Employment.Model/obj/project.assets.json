@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Employment-project\\Employment\\src\\Libraries\\Domain\\Employment.Model\\Employment.Model.csproj",
+      "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Model\\Employment.Model.csproj",
       "projectName": "Employment.Model",
-      "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project\\Employment\\src\\Libraries\\Domain\\Employment.Model\\Employment.Model.csproj",
+      "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Model\\Employment.Model.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project\\Employment\\src\\Libraries\\Domain\\Employment.Model\\obj\\",
+      "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -716,8 +716,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\source\\repos\\Employment-project\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj"
+            "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj": {
+              "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj"
             }
           }
         }

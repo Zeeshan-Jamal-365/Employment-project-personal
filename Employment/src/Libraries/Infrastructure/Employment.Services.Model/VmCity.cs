@@ -8,7 +8,7 @@ public class VmCity : IVm
     public string? CityName { get; set; }
     public int StateId { get; set; }
     [JsonIgnore]
-    public VmState? State { get; set; }
+    public VmState? VmState { get; set; }
     [JsonIgnore]
     public ICollection<VmEmployee> VmEmployees { get; set; } = new HashSet<VmEmployee>();
 }
