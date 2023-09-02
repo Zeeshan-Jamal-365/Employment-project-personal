@@ -15,20 +15,20 @@ public class DepartmentController : Controller
 
     public async Task<List<Department>> GetAllDepartment()
     {
-        var data = await _httpClient.GetAsync("Department");
-        if (data.IsSuccessStatusCode)
+        var response = await _httpClient.GetAsync("Department");
+        if (response.IsSuccessStatusCode)
         {
-            var newData = await data.Content.ReadAsStringAsync();
-            var departments = JsonConvert.DeserializeObject<List<Department>>(newData);
+            var content = await response.Content.ReadAsStringAsync();
+            var departments = JsonConvert.DeserializeObject<List<Department>>(content);
             return departments;
         }
         return new List<Department>();
     }
-
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
-        var data = await GetAllDepartment();
-        return View(data);
+        var departments = await GetAllDepartment();
+        return View(departments);
     }
 
     [HttpGet]
@@ -55,47 +55,56 @@ public class DepartmentController : Controller
             }
         }
     }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
 
-
-    public async Task<IActionResult> AddorEdit(Department department, int id)
+    public async Task<IActionResult> AddorEdit(int id, Department department)
     {
-        if (id == 0)
+        if (ModelState.IsValid)
         {
-            //save//
-            var data = await _httpClient.PostAsJsonAsync("Department", department);
-            if (data.IsSuccessStatusCode)
+            if (id == 0)
             {
-                return RedirectToAction("Index");
-            }
-        }
-        else
-        {
-            //update//
-            if (id != department.id)
-            {
-                return BadRequest();
-            }
-            if (ModelState.IsValid)
-            {
-                var response = await _httpClient.PutAsJsonAsync($"Department/{id}", department);
-
+                //save//
+                var response = await _httpClient.PostAsJsonAsync("Department", department);
                 if (response.IsSuccessStatusCode)
                 {
-
                     return RedirectToAction("Index");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Failed to update the Department.");
+                    ModelState.AddModelError("", "Failed to create the department");
                     return View(department);
                 }
             }
-            return View(department);
+            else
+            {
+                //update//
+                if (id != department.Id)
+                {
+                    return BadRequest();
+                }
+                if (ModelState.IsValid)
+                {
+                    var response = await _httpClient.PutAsJsonAsync($"Department/{id}", department);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Failed to update the Department.");
+                        return View(department);
+                    }
+                }
+                return View(department);
+            }
         }
         return View(new Department());
     }
 
-    public async Task<ActionResult> Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
         var response = await _httpClient.DeleteAsync($"Department/{id}");
         if (response.IsSuccessStatusCode)

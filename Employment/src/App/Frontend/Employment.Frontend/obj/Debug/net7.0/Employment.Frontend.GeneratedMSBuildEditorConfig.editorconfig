@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Employment.Frontend
 build_property.RootNamespace = Employment.Frontend
-build_property.ProjectDir = E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\App\Frontend\Employment.Frontend\
+build_property.ProjectDir = C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\App\Frontend\Employment.Frontend\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\App\Frontend\Employment.Frontend
+build_property.MSBuildProjectDirectory = C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\App\Frontend\Employment.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/City/AddorEdit.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/City/AddorEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxBZGRvckVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/City/Index.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/City/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Country/AddorEdit.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Country/AddorEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxBZGRvckVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Country/Index.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Country/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Department/AddorEdit.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Department/AddorEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZGRvckVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Department/Index.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Employee/AddorEdit.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Employee/AddorEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkb3JFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Employee/Index.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Home/Index.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Home/Privacy.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Shared/Error.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/State/AddorEdit.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/State/AddorEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVcQWRkb3JFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/State/Index.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/State/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/_ViewImports.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/_ViewStart.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/16th Semester/dotnet_projects/clean-architecture/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Shared/_Layout.cshtml]
+[C:/Users/ASUS/source/repos/Employment-project-personal/Employment/src/App/Frontend/Employment.Frontend/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rp3g1aw9fq

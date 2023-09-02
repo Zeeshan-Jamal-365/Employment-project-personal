@@ -4165,11 +4165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\App\\Backend\\Employment.Backend\\Employment.Backend.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\App\\Backend\\Employment.Backend\\Employment.Backend.csproj",
       "projectName": "Employment.Backend",
-      "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\App\\Backend\\Employment.Backend\\Employment.Backend.csproj",
+      "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\App\\Backend\\Employment.Backend\\Employment.Backend.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\App\\Backend\\Employment.Backend\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\App\\Backend\\Employment.Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4187,8 +4187,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.IoC.Configuration\\Employment.IoC.Configuration.csproj": {
-              "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.IoC.Configuration\\Employment.IoC.Configuration.csproj"
+            "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.IoC.Configuration\\Employment.IoC.Configuration.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.IoC.Configuration\\Employment.IoC.Configuration.csproj"
             }
           }
         }

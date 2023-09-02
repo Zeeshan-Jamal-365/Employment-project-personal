@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\App\\Frontend\\Employment.Frontend\\Employment.Frontend.csproj": {}
+    "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\App\\Frontend\\Employment.Frontend\\Employment.Frontend.csproj": {}
   },
   "projects": {
-    "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\App\\Frontend\\Employment.Frontend\\Employment.Frontend.csproj": {
+    "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\App\\Frontend\\Employment.Frontend\\Employment.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\App\\Frontend\\Employment.Frontend\\Employment.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\App\\Frontend\\Employment.Frontend\\Employment.Frontend.csproj",
         "projectName": "Employment.Frontend",
-        "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\App\\Frontend\\Employment.Frontend\\Employment.Frontend.csproj",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\App\\Frontend\\Employment.Frontend\\Employment.Frontend.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\App\\Frontend\\Employment.Frontend\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\App\\Frontend\\Employment.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -41,6 +45,16 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.9, )"
@@ -65,6 +79,130 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj",
+        "projectName": "Employment.Shared",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj",
+        "projectName": "Employment.Services.Model",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Shared\\Employment.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

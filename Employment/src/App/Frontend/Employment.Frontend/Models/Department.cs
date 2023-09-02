@@ -1,9 +1,12 @@
-﻿namespace Employment.Frontend.Models;
+﻿using System.ComponentModel;
+
+namespace Employment.Frontend.Models;
 
 public class Department
 {
-    public int id { get; set; }
-    public string? departmentName { get; set; }
+    public int Id { get; set; }
+    [DisplayName("Department Name")]
+    public string? DepartmentName { get; set; }
 
-    public ICollection<Employee> employees { get; set; } = new HashSet<Employee>();
+
 }

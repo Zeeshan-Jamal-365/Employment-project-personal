@@ -3422,11 +3422,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Core\\Employment.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Core\\Employment.Core.csproj",
       "projectName": "Employment.Core",
-      "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Core\\Employment.Core.csproj",
+      "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Core\\Employment.Core.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Core\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3443,14 +3443,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Model\\Employment.Model.csproj": {
-              "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Model\\Employment.Model.csproj"
+            "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Model\\Employment.Model.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Model\\Employment.Model.csproj"
             },
-            "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Repositories\\Employment.Repositories.csproj": {
-              "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Repositories\\Employment.Repositories.csproj"
+            "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Repositories\\Employment.Repositories.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Domain\\Employment.Repositories\\Employment.Repositories.csproj"
             },
-            "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj": {
-              "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj"
+            "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.Services.Model\\Employment.Services.Model.csproj"
             }
           }
         }

@@ -1,10 +1,16 @@
-﻿namespace Employment.Frontend.Models;
+﻿using Employment.Services.Model;
+using System.ComponentModel;
+
+namespace Employment.Frontend.Models;
 
 public class City
 {
-    public int id { get; set; }
-    public string? cityName { get; set; }
-    public int stateId { get; set; }
-    public State? state { get; set; }
-    public ICollection<Employee> employees { get; set; } = new HashSet<Employee>();
+    public int Id { get; set; }
+    [DisplayName("City Name")]
+    public string? CityName { get; set; }
+
+    public int StateId { get; set; }
+
+    public State? State { get; set; }
+
 }

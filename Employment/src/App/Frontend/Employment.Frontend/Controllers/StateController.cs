@@ -16,33 +16,34 @@ public class StateController : Controller
 
     public async Task<List<State>> GetAllState()
     {
-        var data = await _httpClient.GetAsync("State");
-        if (data.IsSuccessStatusCode)
+        var response = await _httpClient.GetAsync("State");
+        if (response.IsSuccessStatusCode)
         {
-            var newData = await data.Content.ReadAsStringAsync();
-            var states = JsonConvert.DeserializeObject<List<State>>(newData);
-            return states;
+            var content = await response.Content.ReadAsStringAsync();
+            var StateList = JsonConvert.DeserializeObject<List<State>>(content);
+            return StateList;
         }
         return new List<State>();
     }
 
     public async Task<IActionResult> Index()
     {
-        var data = await GetAllState();
-        return View(data);
+        var listState = await GetAllState();
+        return View(listState);
     }
 
     [HttpGet]
+
     public async Task<IActionResult> AddorEdit(int id)
     {
         if (id == 0)
         {
-            var response = await _httpClient.GetAsync("Country");
-            if (response.IsSuccessStatusCode)
+            var CountryResponse = await _httpClient.GetAsync("Country");
+            if (CountryResponse.IsSuccessStatusCode)
             {
-                var content = await response.Content.ReadAsStringAsync();
-                var stateList = JsonConvert.DeserializeObject<List<Country>>(content);
-                ViewData["countryId"] = new SelectList(stateList, "id", "countryName");
+                var content = await CountryResponse.Content.ReadAsStringAsync();
+                var CountryList = JsonConvert.DeserializeObject<List<Country>>(content);
+                ViewData["CountryId"] = new SelectList(CountryList, "Id", "CountryName");
             }
             return View(new State());
         }
@@ -55,14 +56,14 @@ public class StateController : Controller
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
-                var stateList = JsonConvert.DeserializeObject<List<Country>>(content);
-                ViewData["countryId"] = new SelectList(stateList, "id", "countryName");
+                var CountryList = JsonConvert.DeserializeObject<List<Country>>(content);
+                ViewData["CountryId"] = new SelectList(CountryList, "Id", "CountryName");
             }
-            var stateresponse = await _httpClient.GetAsync($"State/{id}");
-            if (response.IsSuccessStatusCode)
+            var Stateresponse = await _httpClient.GetAsync($"State/{id}");
+            if (Stateresponse.IsSuccessStatusCode)
             {
-                var statedata = await stateresponse.Content.ReadFromJsonAsync<State>();
-                return View(statedata);
+                var Statedata = await Stateresponse.Content.ReadFromJsonAsync<State>();
+                return View(Statedata);
             }
             else
             {
@@ -73,45 +74,53 @@ public class StateController : Controller
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> AddorEdit(State state, int id)
+    public async Task<IActionResult> AddorEdit(int id, State state)
     {
-        if (id == 0)
+        if (ModelState.IsValid)
         {
-            //save//
-            var data = await _httpClient.PostAsJsonAsync("State", state);
-            if (data.IsSuccessStatusCode)
+            if (id == 0)
             {
-                return RedirectToAction("Index");
-            }
-        }
-        else
-        {
-            //update//
-            if (id != state.id)
-            {
-                return BadRequest();
-            }
-            if (ModelState.IsValid)
-            {
-                var response = await _httpClient.PutAsJsonAsync($"State/{id}", state);
-
-                if (response.IsSuccessStatusCode)
+                //save//
+                var resposnse = await _httpClient.PostAsJsonAsync("State", state);
+                if (resposnse.IsSuccessStatusCode)
                 {
-
                     return RedirectToAction("Index");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Failed to update the State.");
+                    ModelState.AddModelError("", "Failed to create the State");
                     return View(state);
                 }
             }
-            return View(state);
+            else
+            {
+                //update//
+                if (id != state.Id)
+                {
+                    return BadRequest();
+                }
+                if (ModelState.IsValid)
+                {
+                    var response = await _httpClient.PutAsJsonAsync($"State/{id}", state);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Failed to update the State.");
+                        return View(state);
+                    }
+                }
+                return View(state);
+            }
         }
         return View(new State());
     }
 
-    public async Task<ActionResult> Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
         var response = await _httpClient.DeleteAsync($"State/{id}");
         if (response.IsSuccessStatusCode)

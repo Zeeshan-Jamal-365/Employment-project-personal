@@ -19,7 +19,7 @@ namespace Employment.Core.State.Query
         }
         public async Task<IEnumerable<VmState>> Handle(GetAllStateQuery request, CancellationToken cancellationToken)
         {
-            var result = await _StateRepository.GetList(x=>x.Country);
+            var result = await _StateRepository.GetList(x => x.Country);
             return result;
         }
     }

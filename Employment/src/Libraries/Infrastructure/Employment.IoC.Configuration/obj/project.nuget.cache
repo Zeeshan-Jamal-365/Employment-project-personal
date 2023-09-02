@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wXIoohVNjvUSYw6mmKRTWS0aDc7QnDo4BXLVilHdeEzo2GGBNpOYKNcbK3FKCKGHaHbIdrvNNYHShasQIvtzNQ==",
+  "dgSpecHash": "yT4hWOc5V+6ebY0XMaM4T6qL+7lK9ix5+db9EFtDoZ04NHk6h79f4xlnynqdp0Ctv/ws9UtbKjjtHDFou5eKcg==",
   "success": true,
-  "projectFilePath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.IoC.Configuration\\Employment.IoC.Configuration.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\Employment-project-personal\\Employment\\src\\Libraries\\Infrastructure\\Employment.IoC.Configuration\\Employment.IoC.Configuration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

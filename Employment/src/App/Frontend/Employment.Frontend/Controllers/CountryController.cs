@@ -15,10 +15,10 @@ public class CountryController : Controller
 
     public async Task<List<Country>> GetAllCountry()
     {
-        var data = await _httpClient.GetAsync("Country");
-        if (data.IsSuccessStatusCode)
+        var response = await _httpClient.GetAsync("Country");
+        if (response.IsSuccessStatusCode)
         {
-            var newData = await data.Content.ReadAsStringAsync();
+            var newData = await response.Content.ReadAsStringAsync();
             var countries = JsonConvert.DeserializeObject<List<Country>>(newData);
             return countries;
         }
@@ -55,47 +55,56 @@ public class CountryController : Controller
             }
         }
     }
-
-
-    public async Task<IActionResult> AddorEdit(Country country, int id)
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> AddorEdit(int id, Country country)
     {
-        if (id == 0)
+        if (ModelState.IsValid)
         {
-            //save//
-            var data = await _httpClient.PostAsJsonAsync("Country", country);
-            if (data.IsSuccessStatusCode)
+            if (id == 0)
             {
-                return RedirectToAction("Index");
-            }
-        }
-        else
-        {
-            //update//
-            if (id != country.id)
-            {
-                return BadRequest();
-            }
-            if (ModelState.IsValid)
-            {
-                var response = await _httpClient.PutAsJsonAsync($"Country/{id}", country);
-
+                //save//
+                var response = await _httpClient.PostAsJsonAsync("Country", country);
                 if (response.IsSuccessStatusCode)
                 {
-
                     return RedirectToAction("Index");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Failed to update the Country.");
+                    ModelState.AddModelError("", "Failed to create the country");
                     return View(country);
                 }
             }
-            return View(country);
+            else
+            {
+                //update//
+                if (id != country.Id)
+                {
+                    return BadRequest();
+                }
+                if (ModelState.IsValid)
+                {
+                    var response = await _httpClient.PutAsJsonAsync($"Country/{id}", country);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Failed to update the Country.");
+                        return View(country);
+                    }
+                }
+                return View(country);
+            }
         }
+
         return View(new Country());
     }
 
-    public async Task<ActionResult> Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
         var response = await _httpClient.DeleteAsync($"Country/{id}");
         if (response.IsSuccessStatusCode)

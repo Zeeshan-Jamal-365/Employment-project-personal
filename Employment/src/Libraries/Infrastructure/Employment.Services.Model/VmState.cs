@@ -1,5 +1,4 @@
 ﻿using Employment.Shared.Common;
-using System.Text.Json.Serialization;
 
 namespace Employment.Services.Model;
 public class VmState : IVm

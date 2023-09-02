@@ -20,9 +20,9 @@ public static class ConfigurationServices
         services.AddTransient<IEmployeeRepository, EmployeeRepository>();
         services.AddTransient<IStateRepository, StateRepository>();
 
-       
 
-        services.AddMediatR(options=>options.RegisterServicesFromAssemblies(typeof(ICore).Assembly));
+
+        services.AddMediatR(options => options.RegisterServicesFromAssemblies(typeof(ICore).Assembly));
         return services;
     }
 }

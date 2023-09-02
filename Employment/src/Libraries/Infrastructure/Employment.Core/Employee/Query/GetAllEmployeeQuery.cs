@@ -19,7 +19,7 @@ namespace Employment.Core.Employee.Query
         }
         public async Task<IEnumerable<VmEmployee>> Handle(GetAllEmployeeQuery request, CancellationToken cancellationToken)
         {
-            var result = await _EmployeeRepository.GetList();
+            var result = await _EmployeeRepository.GetList(x=>x.Country,x=>x.State, x => x.City, x => x.Department);
             return result;
         }
     }

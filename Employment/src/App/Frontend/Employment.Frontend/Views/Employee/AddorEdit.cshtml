@@ -4,71 +4,221 @@
     ViewData["Title"] = "AddorEdit";
 }
 
-<h1>Add or Edit</h1>
+<div class="container border border-success-subtle">
+  <h4 class="text-center bg-dark text-white p-5 mt-2">Employee Form</h4>
+  <hr />
 
-<h4>Employee</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="AddorEdit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @Html.HiddenFor(model=>model.id)
-            <div class="form-group">
-                <label asp-for="name" class="control-label"></label>
-                <input asp-for="name" class="form-control" />
-                <span asp-validation-for="name" class="text-danger"></span>
+  <div class="row">
+      <form asp-action="AddorEdit" method="post" enctype="multipart/form-data">
+          <div asp-validation-summary="ModelOnly" class="text-danger">
 
-                <label asp-for="departmentId" class="control-label"></label>
-                <input asp-for="departmentId" class="form-control" />
+          </div>
 
 
-                <label asp-for="address" class="control-label"></label>
-                <input asp-for="address" class="form-control" />
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="row mb-3">
+                      <label class="col-md-3 col-form-label">Name</label>
+                      <div class="col-md-9">
 
-                <label asp-for="gender" class="control-label"></label>
-                <input asp-for="gender" class="form-control" />
+                          <input asp-for="Name" class="form-control"/>
+                          <span asp-validation-for="Name" class="text-danger"></span>
 
-                <label asp-for="joiningdate" class="control-label"></label>
-                <input asp-for="joiningdate" class="form-control" />
+                      </div>
+                  </div>
+                  <div class="row mb-3">
+                      <label class="col-md-3 col-form-label">Gender</label>
+                      <div class="col-md-9 pt-2">
+                           <label class="radio-inline mx-2">
+                                @Html.RadioButtonFor(model => model.Gender, "Male", htmlAttributes: new { @class = "form-check-input" }) Male
+                            </label>
+                            <label class="radio-inline mx-2">
+                                @Html.RadioButtonFor(model => model.Gender, "Female", htmlAttributes: new { @class = "form-check-input" }) Female
+                            </label>
+                            <label class="radio-inline mx-2">
+                                @Html.RadioButtonFor(model => model.Gender, "Other", htmlAttributes: new { @class = "form-check-input" }) Other
+                            </label>
+                             <br />
+                            <span asp-validation-for="Gender" class="text-danger"></span>
 
-                <label asp-for="ssc" class="control-label"></label>
-                <input asp-for="ssc" class="form-control" />
+                      </div>
+                  </div>
 
-                <label asp-for="hsc" class="control-label"></label>
-                <input asp-for="hsc" class="form-control" />
+                   <div class="row mb-3">
+                        <label class="col-md-3 col-form-label">Education</label>
+                        <div class="col-md-9 pt-2">
+                            <div class="form-check form-check-inline">
+                                <input type="checkbox" class="form-check-input" asp-for="Ssc" />
+                                <label class="form-check-label" asp-for="Ssc">
+                                    SSC
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="checkbox" class="form-check-input" asp-for="Hsc" />
+                                <label class="form-check-label" asp-for="Hsc">
+                                    HSC
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="checkbox" class="form-check-input" asp-for="Bsc" />
+                                <label class="form-check-label" asp-for="Bsc">
+                                    BSC
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="checkbox" class="form-check-input" asp-for="Msc" />
+                                <label class="form-check-label" asp-for="Msc">
+                                    MSC
+                                </label>
+                            </div>
+                        </div>
+                    </div>
 
-                <label asp-for="bsc" class="control-label"></label>
-                <input asp-for="bsc" class="form-control" />
+                    <div class="row mb-3">
+                        <label class="col-md-3 col-form-label">Address</label>
+                        <div class="col-md-9">
+                            <textarea asp-for="Address" class="form-control"></textarea>
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                    </div>
+                     <div class="row mb-3">
+                        <label class="col-md-3 col-form-label"> Department</label>
+                        <div class="col-md-9">
+                            <select asp-for="DepartmentId" asp-items="@(ViewBag.DepartmentId)" class="form-control">
+                                <option value="">--Select Department--</option>
+                            </select>
+                            <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <label class="col-md-3 col-form-label"> Country</label>
+                        <div class="col-md-9">
+                            <select asp-for="CountryId" asp-items="@(ViewBag.CountryId)" class="form-control">
+                                <option value="">--Select Country--</option>
+                            </select>
+                            <span asp-validation-for="CountryId" class="text-danger"></span>
+                        </div>
+                    </div>
 
-                <label asp-for="msc" class="control-label"></label>
-                <input asp-for="msc" class="form-control" />
+                    <div class="row mb-3">
+                        <label class="col-md-3 col-form-label"> State</label>
+                        <div class="col-md-9">
+                            <select asp-for="StateId" asp-items="@(ViewBag.StateId)" class="form-control">
+                                <option value="">--Select State--</option>
+                            </select>
+                            <span asp-validation-for="StateId" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-3 col-form-label"> City</label>
+                        <div class="col-md-9">
+                            <select asp-for="CityId" asp-items="@(ViewBag.CityId)" class="form-control">
+                                <option value="">--Select City--</option>
+                            </select>
+                            <span asp-validation-for="CityId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                     <div class="row mb-3">
+                        <label class="col-md-3 col-form-label">Joining Date</label>
+                        <div class="col-md-9">
+                            <input asp-for="JoiningDate" type="date" class="form-control" />
+                            <span asp-validation-for="JoiningDate" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                   
+              </div>
+              
+              <div class="col-md-6">
+                    <div class="row mb-3">
+                        <label class="col-md-3 col-form-label">Picture</label>
+                        <div class="col-md-9">
+                            <input type="file" asp-for="Picture" class="form-control" name="PictureFile" accept="image/*" id="FileUpload" onchange="PreviewImage()" />
+                            <span asp-validation-for="Picture" class="text-danger"></span>
+                        </div>
+                        <div class="mt-3" style="text-align:end">
+                            <img src="~/images/@Model.Picture" alt="img" id="UploadFile" class="img-thumbnail" style="width:170px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3 mb-5">
+                    
+                    <button type="submit" class="btn btn-primary btn-sm "><i class="fa-solid fa-check"></i> Save</button>
+                </div>
+
+          </div>
+
+      </form>
+
+  </div>
 
 
-                <label asp-for="picture" class="control-label"></label>
-                <input asp-for="picture" class="form-control" />
-
-
-                <label asp-for="countryId" class="control-label"></label>
-                <input asp-for="countryId" class="form-control" />
-
-
-                <label asp-for="stateId" class="control-label"></label>
-                <input asp-for="stateId" class="form-control" />
-
-                  <label asp-for="cityId" class="control-label"></label>
-                <input asp-for="cityId" class="form-control" />
-
-                
-            </div>
-
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
+  <div>
     <a asp-action="Index">Back to List</a>
+  </div>
 </div>
 
+
+
+@section Scripts {
+
+
+        <script>
+
+            $(document).ready(function () {
+
+                $('#CountryId').change(function () {
+                    $.ajax({
+                        type: "get",
+                        url: "/Employee/StateDropdownData",
+                        data: { CountryId: $('#CountryId').val() },
+                        datatype: "json",
+                        traditional: true,
+                        success: function (data) {
+                            var State = "<select id='StateId'>";
+                            State = State + '<option value="">Select State</option>';
+                            for (var i = 0; i < data.length; i++) {
+                                State = State + '<option value=' + data[i].id + '>' + data[i].StateName + '</option>';
+                            }
+                            State = State + '</select>';
+                            $('#StateId').html(State);
+                        }
+                    });
+                });
+
+                // Get Cities by State ID
+                $('#StateId').change(function () {
+                    $.ajax({
+                        type: "get",
+                        url: "/Employee/CityDropdownData",
+                        data: { StateId: $('#StateId').val() },
+                        datatype: "json",
+                        traditional: true,
+                        success: function (data) {
+                            var City = "<select id='CityId'>";
+                            City = City + '<option value="">Select City</option>';
+                            for (var i = 0; i < data.length; i++) {
+                                City = City + '<option value=' + data[i].id + '>' + data[i].CityName + '</option>';
+                            }
+                            City = City + '</select>';
+                            $('#CityId').html(City);
+                        }
+                    });
+                });
+            });
+
+            function PreviewImage() {
+                var oFReader = new FileReader();
+                oFReader.readAsDataURL(document.getElementById("FileUpload").files[0]);
+
+                oFReader.onload = function (oFREvent) {
+                    document.getElementById("UploadFile").src = oFREvent.target.result;
+                };
+            };
+        </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

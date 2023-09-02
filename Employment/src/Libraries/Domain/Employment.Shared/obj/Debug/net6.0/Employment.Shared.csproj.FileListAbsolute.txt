@@ -22,18 +22,6 @@ E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Emp
 E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\refint\Employment.Shared.dll
 E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.pdb
 E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\ref\Employment.Shared.dll
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.deps.json
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.dll
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.pdb
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.csproj.AssemblyReference.cache
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.AssemblyInfoInputs.cache
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.AssemblyInfo.cs
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.csproj.CoreCompileInputs.cache
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.dll
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\refint\Employment.Shared.dll
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.pdb
-C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\ref\Employment.Shared.dll
 E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.deps.json
 E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.dll
 E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.pdb
@@ -46,3 +34,27 @@ E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-per
 E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\refint\Employment.Shared.dll
 E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.pdb
 E:\16th Semester\dotnet_projects\clean-architecture\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\ref\Employment.Shared.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.deps.json
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.pdb
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.AssemblyInfo.cs
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\refint\Employment.Shared.dll
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.pdb
+C:\Users\Acer\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\ref\Employment.Shared.dll
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.deps.json
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.dll
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\bin\Debug\net6.0\Employment.Shared.pdb
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.dll
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\refint\Employment.Shared.dll
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\Employment.Shared.pdb
+C:\Users\ASUS\source\repos\Employment-project-personal\Employment\src\Libraries\Domain\Employment.Shared\obj\Debug\net6.0\ref\Employment.Shared.dll

@@ -64,8 +64,8 @@ public class RepositoryBase<TEntity, IModel, T> : IRepository<TEntity, IModel, T
     }
     public async Task<List<IModel>> GetList(params Expression<Func<TEntity, object>>[] includes)
     {
-        var entities= await includes.Aggregate(
-            _dbContext.Set<TEntity>().AsQueryable(),(current, include)=>current.Include(include)).ToListAsync().ConfigureAwait(true);
+        var entities = await includes.Aggregate(
+            _dbContext.Set<TEntity>().AsQueryable(), (current, include) => current.Include(include)).ToListAsync().ConfigureAwait(true);
         return _mapper.Map<List<IModel>>(entities);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Employment.Frontend.Models;
 
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 
 namespace Employment.Frontend.Controllers;
@@ -15,20 +16,20 @@ public class CityController : Controller
 
     public async Task<List<City>> GetAllCity()
     {
-        var data = await _httpClient.GetAsync("City");
-        if (data.IsSuccessStatusCode)
+        var CityResponse = await _httpClient.GetAsync("City");
+        if (CityResponse.IsSuccessStatusCode)
         {
-            var newData = await data.Content.ReadAsStringAsync();
-            var cities = JsonConvert.DeserializeObject<List<City>>(newData);
-            return cities;
+            var content = await CityResponse.Content.ReadAsStringAsync();
+            var CityList = JsonConvert.DeserializeObject<List<City>>(content);
+            return CityList;
         }
         return new List<City>();
     }
-
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
-        var data = await GetAllCity();
-        return View(data);
+        var listCity = await GetAllCity();
+        return View(listCity);
     }
 
     [HttpGet]
@@ -36,6 +37,15 @@ public class CityController : Controller
     {
         if (id == 0)
         {
+
+            var StateResponse = await _httpClient.GetAsync("State");
+            if (StateResponse.IsSuccessStatusCode)
+            {
+                var content = await StateResponse.Content.ReadAsStringAsync();
+                var StateList = JsonConvert.DeserializeObject<List<State>>(content);
+                ViewData["StateId"] = new SelectList(StateList, "Id", "StateName");
+
+            }
             return View(new City());
 
         }
@@ -43,10 +53,18 @@ public class CityController : Controller
 
         else
         {
-            var response = await _httpClient.GetAsync($"City/{id}");
+            var response = await _httpClient.GetAsync("State");
             if (response.IsSuccessStatusCode)
             {
-                var cities = await response.Content.ReadFromJsonAsync<City>();
+                var content = await response.Content.ReadAsStringAsync();
+                var StateList = JsonConvert.DeserializeObject<List<State>>(content);
+                ViewData["StateId"] = new SelectList(StateList, "Id", "StateName");
+
+            }
+            var Cityresponse = await _httpClient.GetAsync($"City/{id}");
+            if (Cityresponse.IsSuccessStatusCode)
+            {
+                var cities = await Cityresponse.Content.ReadFromJsonAsync<City>();
                 return View(cities);
             }
             else
@@ -55,47 +73,55 @@ public class CityController : Controller
             }
         }
     }
-
-
-    public async Task<IActionResult> AddorEdit(City city, int id)
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> AddorEdit(int id, City city)
     {
-        if (id == 0)
+        if (ModelState.IsValid)
         {
-            //save//
-            var data = await _httpClient.PostAsJsonAsync("City", city);
-            if (data.IsSuccessStatusCode)
+            if (id == 0)
             {
-                return RedirectToAction("Index");
-            }
-        }
-        else
-        {
-            //update//
-            if (id != city.id)
-            {
-                return BadRequest();
-            }
-            if (ModelState.IsValid)
-            {
-                var response = await _httpClient.PutAsJsonAsync($"City/{id}", city);
-
+                //save//
+                var response = await _httpClient.PostAsJsonAsync("City", city);
                 if (response.IsSuccessStatusCode)
                 {
-
                     return RedirectToAction("Index");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Failed to update the City.");
+                    ModelState.AddModelError("", "Failed to create City");
                     return View(city);
                 }
             }
-            return View(city);
+            else
+            {
+                //update//
+                if (id != city.Id)
+                {
+                    return BadRequest();
+                }
+                if (ModelState.IsValid)
+                {
+                    var response = await _httpClient.PutAsJsonAsync($"City/{id}", city);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Failed to update the City.");
+                        return View(city);
+                    }
+                }
+                return View(city);
+            }
         }
         return View(new City());
     }
 
-    public async Task<ActionResult> Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
         var response = await _httpClient.DeleteAsync($"City/{id}");
         if (response.IsSuccessStatusCode)
